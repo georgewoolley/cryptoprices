@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CryptoTracker.io</title>
+  <style>
+    /* Add your styles here if needed */
+  </style>
+</head>
+
+<body>
+  
+<h1>Top 10 Trending Coins</h1>
+
+<% for (let i = 0; i <=10; i++) { %>
+
+    <h3><%= coins[i].symbol %></h3> 
+    <p><%= coins[i].price %></p> 
+    <p><%= coins[i].marketCap %></p> 
+
+  <% } %>
+
+
+<h2>Data Goes Here</h2>
+
+</body>
+
+</html>
