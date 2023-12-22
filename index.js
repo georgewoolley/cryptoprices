@@ -3,7 +3,7 @@ import axios from "axios";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3021;
+const port = 3032;
 const API_URL = "https://api.coinranking.com/v2/coins";
 
 // Set the view engine to EJS
